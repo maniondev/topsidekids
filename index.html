@@ -4,11 +4,11 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Topside: Kids — Coming Soon</title>
-<meta name="description" content="Topside: Kids is a playful word and phonics game for little learners. Coming soon for iOS and Android.">
+<meta name="description" content="Topside: Kids — 8 dice-themed mini-games covering early numeracy and literacy for ages 3–7. Coming soon for iOS and Android.">
 <link rel="icon" type="image/png" href="icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=DM+Sans:wght@400;500&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
 <style>
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -35,10 +35,9 @@
     content: '';
     position: fixed;
     inset: 0;
-    background-image:
-      linear-gradient(rgba(90,68,32,0.06) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(90,68,32,0.06) 1px, transparent 1px);
-    background-size: 48px 48px;
+    background-image: url('bg.svg');
+    background-size: cover;
+    background-position: center;
     pointer-events: none;
     z-index: 0;
   }
@@ -79,11 +78,10 @@
 
   .eyebrow {
     margin-bottom: 4px;
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 400;
-    font-size: clamp(11px, 2.5vw, 13px);
-    letter-spacing: 0.22em;
-    text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    font-size: clamp(13px, 3vw, 16px);
+    letter-spacing: 0.12em;
     color: var(--muted);
   }
 
@@ -212,7 +210,7 @@
   <h1 class="wordmark">Kids</h1>
   <p class="subtitle">Coming Soon</p>
   <div class="divider"></div>
-  <p class="desc">A playful word and phonics game for little learners. Meet Pip and explore a world of letters, sounds, and silly fun.</p>
+  <p class="desc">Eight dice-themed mini-games for ages 3–7. Count pips, sort dice, spell words, and more — with Pip the friendly dice as your guide. Free to try, one-time unlock, no ads, no subscription.</p>
 
   <div class="buttons">
     <a href="#" class="btn btn-ios">
